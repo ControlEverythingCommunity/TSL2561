@@ -8,7 +8,7 @@ This Device is available from ControlEverything.com [SKU: TSL2561_I2CS]
 
 https://www.controleverything.com/content/Light?sku=TSL2561_I2CS
 
-This Sample code can be used with Raspberry pi and Arduino.
+This Sample code can be used with Raspberry pi, Arduino and Beaglebone Black.
 
 ## Java
 Download and install pi4j library on Raspberry pi. Steps to install pi4j are provided at:
@@ -47,4 +47,17 @@ Download (or git pull) the code and double click the file to run the program.
 
 Compile and upload the code on Arduino IDE and see the output on Serial Monitor.
 
+
+## C
+
+Download (or git pull) the code in Beaglebone Black.
+
+Compile the c program.
+```cpp
+$>gcc TSL2561.c -o TSL2561
+```
+Run the c program.
+```cpp
+$>./TSL2561
+```
 #####The code output is the lux value of ambient light.
